@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keep Island 下載頁面</title>
+  <style>
+    :root {
+      --bg: #041023;
+      --card: #1e2226;
+      --accent: #78a9ff;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans CJK TC", Arial;
+      background-color: var(--bg);
+      color: #e6eef8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.12));
+      border-radius: 16px;
+      padding: 28px;
+      width: 300px;
+      box-shadow: 0 10px 30px rgba(2,6,10,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.03);
+      backdrop-filter: blur(6px) saturate(120%);
+      -webkit-backdrop-filter: blur(6px) saturate(120%);
+      text-align: center;
+    }
+
+    .card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+
+    .card h1 {
+      margin: 0 0 12px 0;
+      font-size: 22px;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin: 4px 0;
+      color: rgba(230,238,248,0.7);
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .buttons a {
+      flex: 1;
+      text-decoration: none;
+      color: #e6eef8;
+      padding: 10px 0;
+      border-radius: 10px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.12));
+      box-shadow: 0 6px 18px rgba(2,6,10,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.03);
+      backdrop-filter: blur(6px) saturate(120%);
+      -webkit-backdrop-filter: blur(6px) saturate(120%);
+      transition: transform 220ms cubic-bezier(.2,.9,.3,1), box-shadow 220ms;
+      text-align: center;
+    }
+
+    .buttons a:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 14px 30px rgba(2,6,10,0.75);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://moses0823.github.io/assets/keep_island-icon.png" alt="Keep Island">
+    <h1>Keep Island v1.0.0</h1>
+    <p>Keep Dynamic Island always visible on non-native Dynamic Island iPhones.</p>
+
+    <div class="buttons">
+      <a href="https://github.com/moses0823/Keep-Island/releases/download/v1.0.0/Keep.Island.EN.v1.0.0.ipa" target="_blank">Direct download</a>
+      <a href="https://github.com/moses0823/Keep-Island" target="_blank">GitHub website</a>
+    </div>
+  </div>
+</body>
+</html>
